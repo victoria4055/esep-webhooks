@@ -22,6 +22,7 @@ public class Function
 
         dynamic json = JsonConvert.DeserializeObject<dynamic>(input.ToString());
 
+
         // Testing from postman, you can use this code to test the function
         /*
         context.Logger.LogInformation($"Body: {json.body}");
